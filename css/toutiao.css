@@ -1,0 +1,236 @@
+a {
+    text-decoration: none;
+}
+
+.index--toutiaoribao {
+    display: block;
+    z-index: 999;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-bar {
+    width: 100%;
+    position: relative;
+    background: #d43d3d;
+    height: 44px;
+}
+
+.refresh-title {
+    display: inline-block;
+    background: url(../images/logo.png) no-repeat center;
+    width: 98px;
+    height: 44px;
+    background-size: contain;
+    margin-left: 70px;
+}
+
+.refresh-btn {
+    display: inline-block;
+    background: url(../images/huixuan.png) no-repeat center;
+    width: 25px;
+    height: 44px;
+    background-size: contain;
+    /* margin-left: 20px; */
+}
+
+.msg-box {
+    background: url(../images/xin.png) no-repeat center;
+    float: left;
+    width: 30px;
+    height: 44px;
+    background-size: contain;
+    margin-left: 10px;
+}
+
+.search {
+    background: url(../images/sousuo.png) no-repeat center;
+    float: right;
+    width: 30px;
+    height: 44px;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.nav-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: fixed;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #f4f5f6;
+}
+
+.nav-item {
+    font-size: .30rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    line-height: .55rem;
+}
+
+.nav-item a {
+    color: #666;
+    font-size: 17px;
+}
+
+.nav-display {
+    width: .4rem;
+}
+
+.nav-i a {
+    font-size: 40px;
+    color: #f85959;
+    font-weight: 400;
+}
+
+.list-content {
+  
+    width: 95%;
+    height: 84px;
+    margin: 0 auto;
+    font-size: 0;
+   
+}
+
+.list-content a h3 {
+    color: #222222;
+    font-size: 17px;
+    overflow: hidden;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.list-img {
+    margin-top: 6px;
+    width: 100%;
+    /* height: 148px; */
+    
+}
+.list-img ul {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 0;
+}
+.list-img li {
+    list-style: none;
+}
+
+.list-img-holder {
+    float: left;
+    padding-right: 4px;
+  
+}
+.list-img img {
+    width: 100px;
+    height: 100%;
+}
+.list-content a .list-info {
+    font-size: 15px;
+    color: #999999;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+}
+.text-line a h3 {
+    color: #222222;
+    font-size: 17px;
+    overflow: hidden;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    padding-top: 90px;
+}
+.text-line a .src-space {
+    font-size: 15px;
+    color: #999999;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1);; */
+}
+.text-line-left {
+    width: 210px;
+    height: 126px;
+    float: left;
+}
+.text-line .list-img-holder {
+    float: left;
+    padding-top: 110px;
+    padding-left: 10px;
+}
+.text-line .list-img-holder img {
+    width: 120px;
+    height: 100px;
+   
+}
+.text-line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+    overflow: hidden;
+    padding-bottom: 10px;
+   
+   
+}
+.text-center {
+    overflow: hidden;
+    width: 95%;
+}
+.text-center a h3 {
+    color: #222222;
+    font-size: 17px;
+    overflow: hidden;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    
+}
+.text-center .list-img-holder img {
+    width: 100%;
+}
+.text-center a .list-info{
+    color: #999999;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+     padding-bottom: 10px;
+}
+.text-footer a h3 {
+    color: #222222;
+    font-size: 17px;
+    overflow: hidden;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    
+}
+.text-footer a .list-info{
+    color: #999999;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+     padding-bottom: 10px;
+}
+.text-footer a .list-info .in {
+    color: red;
+    border: 1px red solid;
+}
+.text-footer {
+    padding-top: 94px;
+}
+
+
+

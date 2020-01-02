@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1577876318901'); /* IE9 */
+  src: url('iconfont.eot?t=1577876318901#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOQAAsAAAAACAAAAANEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDNIMaATYCJAMQCwoABCAFhG0HTRsRBxHVm23Ifh6UbXacLbBFeoR7Lu6nUUax30GEunJWq/PrAQNE5AsxVQ9cJa5CVAFXqY0ytl2wGK30/MU5Z9/LCxN1N5S36NEPUuClOf3PMdOleH7bGmRTqwxb22hvgKNoHVDXRdKRXQuekN8wduVF3AwB4iivLunave9QHBZjkQAyd9aMSbiUAVuTLTgEr2SnRfYTwZkd5hmwz/94+UXjHBgiirFy4PRuU+n4tfnXgeqHvrEuAuF4NoDtAwXqAgsys9QxGQ0TdSlxynhLc+BwGBhroO3XgWGIRHtROPNfHggGBfEwMhMAaIqSCl+b22QIfG1LhoGvAzNQgBcy3wGxwFYgD2HL5nkYJCkxwfjTsQlpFSckS9LO61j/RnyiJCQn7Cw6tN2IxF23ROMm+ieu7Lp2Sk7e3Hl9aMw+6QFjLqf7GbuyopljXr8e8fLlsBcvhr56tWh41mvxZMNlXrZk1+sOw9b0fEmx7pW0sTNieMrmv6xXxVPHRV+dy5rY0U9KTepoj6/YkWyStp879/HI0SLw99kd951LfDq39NyniXqj5o0vRQSOzETQ53yT5iY9WVlm7r59cw3X5TmSeHRenSCoXXV6S7Pt8eNtUGqw0WxDr2g5verFIKDJT9lQvXM/s+rixVVmINF+fTdR68SsDebxiYe1sFAPNyw5cnq9AWfHT0Z/DAsBCE2OVoTwbFMAdCLYLYDA8vnyb0Jy2/8u/orq3jU+Pd73h5Z+wr8ibC38fcKWFVYVG0ZrZYkt0IKWnvyfmAHiTA+E0JPm0xiqYq1jILiUkIEhhnKgOKoiLbYuRIinKXg4OkAcdfTYH08Ri1HExgK1bQEgpLgHhiSyQEnxHGmxHyFCcX/AIyWFOOhXuxO39hlxJBwZF5j+YOYUpWVmEWTfUL39SEmxj3shFROGvumy6StGpDHWlI8amCVISgEu4HbofYJMyeLMjWbOh7aVZW/UzClUwhFBI4YWYPIHjFkSSbc2E7n3v0HKmzeimrIK6wsihRke9BpdC+RVEVuVXctrig9lwJgEJJIE4AKmIc9LQC6fZqEZa+geseygNavJtopmflV4wm3wGJO207Rdm3MP1ozlrgRhRU/tQ1UB') format('woff2'),
+  url('iconfont.woff?t=1577876318901') format('woff'),
+  url('iconfont.ttf?t=1577876318901') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1577876318901#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-test:before {
+  content: "\e636";
+}
+
+.icon-icon-test1:before {
+  content: "\e63c";
+}
+
+.icon-icon-test2:before {
+  content: "\e650";
+}
+
